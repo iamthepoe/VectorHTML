@@ -23,7 +23,11 @@ h1, h3{
   margin-top: 20px;
   margin-left: 35%;
 }
-
+#lee{
+  width: 400px;
+  margin-top: 2%;
+  margin-left: 66.6%;
+}
 .content{
   justify-content: center;
   display: flex;
