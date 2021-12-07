@@ -14,11 +14,14 @@ a, h1, p {
   transition: 0.3s;
 }
 
+body{
+  background: #b9240a;
 
+}
 
-h1{
+h1, h3{
   margin-top: 20px;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .content{
@@ -32,8 +35,9 @@ h1{
 }
 
 .box{
+  margin-top: 300px;
   width: 1200px;
-  height: 600px;
+  height: 750px;
   background: #ee2d0b;
 }
 
