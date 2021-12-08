@@ -18,15 +18,28 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
+          <li><a href="index.html">Início</a></li>
           <li><a href="lore.html">Lore HTML</a></li>
-          <li><a href="#">Aprender HTML</a></li>
-          <li><a href="#">Sobre o Grupo</a></li>
-          <li><a href="#">Secreto</a></li>
+          <li><a href="learn.html">Aprender HTML</a></li>
+          <li><a href="sobre.html">Sobre o Grupo</a></li>
+          <li><a onclick="SiteSecreto()">Secreto</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+
+    </main>
+
     <script src="mobile-navbar.js"></script>
+    <script>
+      function SiteSecreto(){
+        var senha = prompt("Insira a senha.");
+        if(senha==="rodolfo"){
+          window.location.href="secreto.html";
+        }else{
+          alert("senha incorreta.");
+        }
+      }
+    </script>
   </body>
 </html>
